@@ -17,7 +17,7 @@ class DepthMapFilter(desc.CommandLineNode):
             description='SfMData file.',
             value='',
             uid=[0],
-        ),    
+        ),
         desc.File(
             name="depthMapsFolder",
             label="Depth Maps Folder",

@@ -13,7 +13,7 @@ class LightingEstimation(desc.CommandLineNode):
             description='SfMData file.',
             value='',
             uid=[0],
-        ), 
+        ),
         desc.File(
             name="depthMapsFilterFolder",
             label='Filtered Depth Maps Folder',
@@ -68,7 +68,6 @@ class LightingEstimation(desc.CommandLineNode):
             advanced=True,
         ),
     ]
-    
     outputs = [
         desc.File(
             name='output',
